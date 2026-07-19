@@ -1,0 +1,7 @@
+# Do not push secret API keys to the internet!
+.env
+
+# Ignore python caches and local DBs
+__pycache__/
+faiss_index/
+.ipynb_checkpoints/
