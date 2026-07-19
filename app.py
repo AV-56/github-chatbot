@@ -16,7 +16,7 @@ page_icon="🤖",
 layout="centered"
 )
 
-st.title("🤖 Chat with OpenAI Quickstart Repo")
+st.title("🤖 Talk to the Repo")
 st.write("Ask any question about the codebase!")
 if "qa_chain" not in st.session_state:
     st.session_state.qa_chain = None
